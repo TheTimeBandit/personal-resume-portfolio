@@ -5,7 +5,7 @@ export function ProjectsSection() {
   return (
     <Section id="Projects" name="Projects">
       <h1>
-        <span>🚧</span> UNDER CONSTRUCTION 🚧
+        <span>🚧</span> UNDER CONSTRUCTION <span>🚧</span>
       </h1>
       {/* <!-- TODO Projects developed while studying at university, School projects --> */}
       {/* <!-- TODO Free time projects --> */}
