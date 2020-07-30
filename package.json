@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm version patch && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "deploy": "gh-pages -d build -b master --remote gh-pages"
   },
