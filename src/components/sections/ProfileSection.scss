@@ -1,0 +1,72 @@
+#Profile {
+  text-align: center;
+
+  > .section-main-content {
+    padding: 20px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .author-introduction {
+    flex: 1;
+  }
+
+  .author-name {
+    font-size: 2em;
+    font-weight: 400;
+  }
+
+  .author-occupation {
+    font-size: 1.5em;
+    font-style: italic;
+  }
+
+  .author-photo {
+    display: flex;
+    justify-content: center;
+    margin-right: 64px;
+    margin-left: 64px;
+  }
+
+  .author-photo > img {
+    box-shadow: 0px 0px 5px 2px lightgrey;
+    border-radius: 25%;
+  }
+
+  .author-email {
+    margin-top: 12px;
+  }
+
+  .social-media-links {
+    padding: 8px;
+  }
+
+  .social-media-links {
+    .fa {
+      margin: 0 5px;
+      padding: 5px;
+      box-shadow: 0px 0px 5px 1px lightgrey;
+      font-size: 40px;
+      width: 40px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 25%;
+    }
+
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    .fa-github {
+      background: white;
+      color: black;
+    }
+
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+  }
+}

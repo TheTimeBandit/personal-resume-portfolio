@@ -1,5 +1,6 @@
 import React from "react";
 import { Section } from "../Section";
+import "./SkillsSection.scss";
 
 const frontEndSkills = Object.freeze([
   // FRONT-END
@@ -50,6 +51,8 @@ function SkillsList({ skills }) {
       {skills.map((skill) => (
         <Skill name={skill.name} value={skill.value} />
       ))}
+      {/* Empty div fills empty space in column when there is odd number of elements in a list*/}
+      <div className="skill" />
     </div>
   );
 }

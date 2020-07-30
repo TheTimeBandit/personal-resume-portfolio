@@ -1,0 +1,38 @@
+#SkillsLists > .skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+
+  .skill {
+    margin-left: 32px;
+    margin-right: 32px;
+    min-width: calc(50% - 64px);
+    flex: auto;
+  }
+
+  .skill-header {
+    width: calc(100% - 64px);
+    border-bottom: 1px groove var(--theme_text);
+    margin-bottom: 16px;
+  }
+
+  .skill__name {
+    font-weight: bold;
+  }
+
+  .skill__progress {
+    height: 0.8rem;
+    min-width: 200px;
+    /* max-width: 800px; */
+    width: 100%;
+    background: #d4d4d4;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  .skill__progress > .skill__progress-level {
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(90deg, #11b2e8, #009cd0);
+  }
+}

@@ -1,0 +1,18 @@
+section {
+  /* fallback color (IE) */
+  background: #d2dfe8;
+
+  background: var(--theme_bg_A);
+  padding: 40px 10%;
+
+  :nth-child(odd) {
+    /* fallback color (IE) */
+    background: #e8eff3;
+
+    background: var(--theme_bg_B);
+  }
+
+  .section-title {
+    text-align: center;
+  }
+}

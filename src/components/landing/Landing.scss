@@ -1,0 +1,39 @@
+#LandingPage {
+  height: 100vh;
+  background: url(https://www.wallpaperflare.com/static/380/758/557/saturn-v-rocket-launch-pads-nasa-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-attachment: fixed;
+
+  .mask-dark {
+    background: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+  }
+}
+
+nav {
+  width: 80%;
+  padding: 0 10%;
+  position: absolute;
+  bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  a {
+    width: 7rem;
+    margin: 10px;
+    border: 1px solid #f2f2fa;
+    border-radius: 2px;
+    padding: 0.5rem 1rem;
+    background: rgba(0, 0, 0, 0.2);
+    font-size: large;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f2f2fa;
+  }
+}
