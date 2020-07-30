@@ -16,7 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "deploy": "gh-pages -d build -b gh-pages --remote gh-pages"
+    "deploy": "gh-pages -d build -b master --remote gh-pages"
   },
   "eslintConfig": {
     "extends": "react-app"

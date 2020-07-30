@@ -38,12 +38,12 @@ export function ProfileSection() {
           className="fa fa-linkedin"
         ></a>
         <div className="author-email">
-          <code>
-            <code>
-              tomixtt<code>&#64;</code>
-            </code>
+          <span>
+            <span>
+              tomixtt<span>&#64;</span>
+            </span>
             gmail.com
-          </code>
+          </span>
         </div>
       </div>
     </Section>
