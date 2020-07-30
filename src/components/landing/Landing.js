@@ -16,10 +16,9 @@ function Navigation() {
 export function Landing() {
   return (
     <div id="LandingPage" className="vignette">
-      <div className="mask-dark">
-        {/* TODO separate from Landing */}
-        <Navigation />
-      </div>
+      <div className="mask-dark" />
+      {/* TODO separate from Landing */}
+      <Navigation />
     </div>
   );
 }

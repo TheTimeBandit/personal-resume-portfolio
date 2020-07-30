@@ -5,8 +5,8 @@ const themes = Object.freeze({
     text: "#2a2a2a",
   },
   dark: {
-    bg_A: "#243044",
-    bg_B: "#2b3951",
+    bg_A: "#1b2e44",
+    bg_B: "#243b54",
     text: "#f2f2fa",
   },
 });

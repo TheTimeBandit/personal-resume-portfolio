@@ -5,7 +5,7 @@ section {
   background: var(--theme_bg_A);
   padding: 40px 10%;
 
-  :nth-child(odd) {
+  &:nth-child(odd) {
     /* fallback color (IE) */
     background: #e8eff3;
 
