@@ -11,8 +11,9 @@ const themes = Object.freeze({
   },
 });
 
-export function setTheme() {
-  const theme = themes.dark;
+export function setTheme(themeId) {
+  const theme = themes[themeId] || themes.dark;
+
   document.querySelector(":root").style.setProperty("--theme_bg_A", theme.bg_A);
   document.querySelector(":root").style.setProperty("--theme_bg_B", theme.bg_B);
   document.querySelector(":root").style.setProperty("--theme_text", theme.text);
