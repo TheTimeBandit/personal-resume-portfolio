@@ -7,6 +7,9 @@ export function ProjectsSection() {
       <h1>
         <span>🚧</span> UNDER CONSTRUCTION <span>🚧</span>
       </h1>
+      <h3>
+        Check my <a href="https://github.com/TheTimeBandit/">Github</a>
+      </h3>
       {/* <!-- TODO Projects developed while studying at university, School projects --> */}
       {/* <!-- TODO Free time projects --> */}
 
