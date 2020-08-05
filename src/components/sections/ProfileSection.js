@@ -1,6 +1,7 @@
 import React from "react";
 import { Section } from "../Section";
 import "./ProfileSection.scss";
+import { ExternalLink } from "../shared/ExternalLink";
 
 export function ProfileSection() {
   return (
@@ -29,14 +30,14 @@ export function ProfileSection() {
       </div>
 
       <div className="social-media-links">
-        <a
-          href="https://github.com/TheTimeBandit/"
+        <ExternalLink
+          url={"https://github.com/TheTimeBandit/"}
           className="fa fa-github"
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/tomas-takacs/"
+        />
+        <ExternalLink
+          url="https://www.linkedin.com/in/tomas-takacs/"
           className="fa fa-linkedin"
-        ></a>
+        />
         <div className="author-email">
           <span>
             <span>

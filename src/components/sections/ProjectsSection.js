@@ -1,5 +1,6 @@
 import React from "react";
 import { Section } from "../Section";
+import { ExternalLink } from "../shared/ExternalLink";
 
 export function ProjectsSection() {
   return (
@@ -8,7 +9,10 @@ export function ProjectsSection() {
         <span>🚧</span> UNDER CONSTRUCTION <span>🚧</span>
       </h1>
       <h3>
-        Check my <a href="https://github.com/TheTimeBandit/">Github</a>
+        Check my{" "}
+        <ExternalLink url="https://github.com/TheTimeBandit/">
+          Github
+        </ExternalLink>
       </h3>
       {/* <!-- TODO Projects developed while studying at university, School projects --> */}
       {/* <!-- TODO Free time projects --> */}
